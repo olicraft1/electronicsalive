@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronics Alive - Reimagine E-Waste (Centered)</title>
+    <title>Electronics Alive</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -70,7 +70,7 @@
         .container { max-width: 1250px; margin: 0 auto; padding: 0 25px; position: relative; z-index: 2; }
         section {
             padding: clamp(100px, 12vh, 150px) 0; min-height: 95vh;
-            display: flex; flex-direction: column; justify-content: center; align-items: center; /* Ensures container children are centered */
+            display: flex; flex-direction: column; justify-content: center; align-items: center; /* Ensures container children are  */
             text-align: center; /* Center inline/text content by default */
             opacity: 0; transform: translateY(60px);
             transition: opacity 1.3s var(--smooth-ease), transform 1.3s var(--smooth-ease);
@@ -100,7 +100,7 @@
         /* --- Hero Section --- */
         #hero {
             min-height: 100vh; color: var(--text-primary);
-            /* Already centered by section styles */
+            /* Already  by section styles */
         }
         #hero::before { /* Animated Gradient Background Layer */
             content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
@@ -118,7 +118,7 @@
         #hero h1 {
             font-size: clamp(3.2rem, 7vw, 5.5rem); color: var(--text-primary); text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
             animation: textGlowIn 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-             /* Centered by section text-align */
+             /*  by section text-align */
         }
         @keyframes textGlowIn {
           0% { text-shadow: 0 0 25px rgba(0, 123, 255, 0), 0 0 10px rgba(255,255,255,0); filter: blur(10px); opacity: 0; }
@@ -137,7 +137,7 @@
 
         /* Modern Quote Styling */
         .modern-quote {
-            margin: 60px auto; /* Already centered */ max-width: 700px; position: relative; padding: 35px 45px; border-left: 4px solid;
+            margin: 60px auto; /* Already  */ max-width: 700px; position: relative; padding: 35px 45px; border-left: 4px solid;
             border-image: linear-gradient(to bottom, var(--primary-color), var(--accent-color)) 1;
             background: rgba(44, 44, 48, 0.7); /* Darker glassmorphism */
             border-radius: 0 var(--border-radius-base) var(--border-radius-base) 0;
@@ -145,7 +145,7 @@
             transition: transform var(--base-transition-speed) var(--bounce-ease), box-shadow var(--base-transition-speed) var(--smooth-ease);
             font-style: normal; font-size: clamp(1.1rem, 2vw, 1.3rem); color: var(--text-secondary); line-height: 1.6;
             will-change: transform, box-shadow;
-            text-align: left; /* Keep quote text left aligned within centered block */
+            text-align: left; /* Keep quote text left aligned within  block */
         }
         .modern-quote:hover { transform: scale(1.04); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4); }
         .modern-quote cite {
@@ -158,7 +158,7 @@
 
         /* Scroll Down Arrow - Modernized */
         .scroll-down {
-            position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); /* Centered */
+            position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); /*  */
             animation: floatBounce 3.5s infinite ease-in-out;
             color: var(--primary-color); width: 60px; height: 60px; display: flex; justify-content: center; align-items: center;
             background: rgba(26, 26, 29, 0.8); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
@@ -175,7 +175,7 @@
 
         /* --- Section Image Styling --- */
         .section-image-container {
-            width: 100%; max-width: 750px; margin: 40px auto 50px auto; /* Centered */
+            width: 100%; max-width: 750px; margin: 40px auto 50px auto; /*  */
             overflow: hidden; border-radius: var(--border-radius-large);
             box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
             position: relative; /* For potential overlays or effects */
@@ -205,7 +205,7 @@
         /* --- Feature Cards (Replacing Icon Grid) --- */
         .feature-grid {
             display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: clamp(30px, 4vw, 50px);
-            margin: 70px auto 0 auto; /* Centered */ max-width: 1100px; width: 100%;
+            margin: 70px auto 0 auto; /*  */ max-width: 1100px; width: 100%;
         }
         .feature-card {
             /* Card itself is positioned by the grid */
@@ -233,7 +233,7 @@
          }
         .feature-card:has(.project-image) .card-icon { display: none; } /* Hide icon if image present */
 
-        /* Center icon IF card content remains centered (Alternative approach) */
+        /* Center icon IF card content remains  (Alternative approach) */
          /* .feature-card-content { text-align: center; } */
          /* .feature-card svg.card-icon { display: block; margin: 0 auto 15px auto; } */
          /* .feature-card h3 { text-align: center;} */
@@ -307,7 +307,7 @@
              list-style: none; padding-left: 0;
              margin: 35px auto 45px auto; /* Center the UL block */ max-width: 650px;
              display: inline-block; /* Allow margin auto centering */
-             text-align: left; /* Keep text left-aligned within the centered block */
+             text-align: left; /* Keep text left-aligned within the  block */
          }
          #involved li {
              /* display: flex; align-items: center; */ /* Removed flex for simpler left alignment */
@@ -326,23 +326,23 @@
              -webkit-background-clip: text; background-clip: text; color: transparent;
          }
 
-        /* Specific centered elements */
-        .centered-text-block {
+        /* Specific  elements */
+        .-text-block {
             max-width: 800px; /* Example width */
             margin-left: auto;
             margin-right: auto;
             background: rgba(44, 44, 48, 0.5); padding: 20px 30px; border-radius: var(--border-radius-base);
             margin-top: 40px;
-            text-align: center; /* Ensure text inside this block is centered */
+            text-align: center; /* Ensure text inside this block is  */
         }
-         .centered-text-block h3 {
+         .-text-block h3 {
              margin-bottom: 15px; color: var(--secondary-color); font-size: 1.3rem;
          }
-         .centered-text-block p {
+         .-text-block p {
              margin-bottom: 8px; font-size: 1rem; color: var(--text-secondary); /* Inherit centering */
          }
-         .centered-text-block p:last-child { margin-bottom: 0; }
-         .centered-text-block .text-muted { font-size: 0.9rem; margin-top: 10px; color: var(--text-muted); }
+         .-text-block p:last-child { margin-bottom: 0; }
+         .-text-block .text-muted { font-size: 0.9rem; margin-top: 10px; color: var(--text-muted); }
 
 
         /* --- Footer --- */
@@ -571,8 +571,8 @@
                 "Tell me and I forget. Teach me and I remember. Involve me and I learn."
                 <cite>Benjamin Franklin</cite>
             </div>
-            <!-- Info about Teacher Groups - using centered block class -->
-            <div class="centered-text-block">
+            <!-- Info about Teacher Groups - using  block class -->
+            <div class="-text-block">
                  <h3>Structured Learning Groups:</h3>
                  <p><strong>Years 1-3:</strong> Focus on DC Supply foundations (Teachers: Chamorro, Santoni)</p>
                  <p><strong>Years 4-7:</strong> Advanced projects like Function Generators & DC Supplies (Teachers: Müller, Berjecio, Gunter)</p>
